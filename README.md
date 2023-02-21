@@ -4,6 +4,8 @@ The code for the article [**Hu et al. (2023)**](https://dx.doi.org/10.1080/17538
 
 The preprocessed data for this article can be obtained from [**Figshare**](https://doi.org/10.6084/m9.figshare.21088669.v2).
 
+Chinese version of the research overview is available on [**微信公众号**](https://mp.weixin.qq.com/s/U5dMqcslVq-rKxwo3pupyA).
+
 ## Research framework
 
 The procedure to recognize the mixed urban functions consists of four parts:
@@ -12,9 +14,9 @@ The procedure to recognize the mixed urban functions consists of four parts:
 
     | Features | Data | Method and model |
     | ---- | ---- | ----|
-    | Activity dynamic | Time series of taxi departures/arrivals | Temporal Convolutional network |
+    | Activity dynamic | Time series of taxi departures/arrivals | Temporal convolutional network |
     | Mobility interaction | Taxi OD (Origin-Destination) graph | node2vec |
-    | Activity semantic | geo-tagged social media tweets | doc2vec |
+    | Activity semantic | Geo-tagged social media tweets | doc2vec |
 
     The three embedding vectors of the features are concatenated into an integrated vector.
 
